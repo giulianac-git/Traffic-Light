@@ -1,12 +1,32 @@
+.cable {
+    background-color: black;
+    width: 1rem;
+    height: 8rem;
+}
+.box {
+    background-color: black;
+    width: 10rem;
+    height: 26.5rem;
+    border-radius: 1rem;
+    position: absolute;
+    margin-top: 8rem;
 
-/* 
+}
+.light{
+    border-radius: 100%;
+    margin: 1rem;
+    height: 7.5rem;
+}
+.red {
+    background-color: red;
+}
+.yellow {
+    background-color: yellow;
+}
+.green {
+    background-color: green;
+}
 
-    You can write your own styles here...
-    
-    
-    ...Or you can use the import command to include 
-    other sylesheets into your bunde as well, e.j:
-    
-    import 'relative/path/to/stylesheet.scss';
-
-*/
+.selected {
+    box-shadow: 0px 0px 20px 10px white;
+}
